@@ -72,7 +72,13 @@
       "": {
         "dataSource": "mainService",
         "preload": true,
-        "settings": {}
+        "settings": {
+          "synchronizationMode": "None",
+          "operationMode": "Server",
+          "autoExpandSelect": true,
+          "earlyRequests": true,
+          "groupId": "$direct"
+        }
       }
     },
     "resources": {
